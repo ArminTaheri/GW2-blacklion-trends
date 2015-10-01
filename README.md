@@ -1,9 +1,15 @@
 # GW2-blacklion-trends
 This is a command line application that samples random buy and sell prices for items
 in the Guild Wars 2 Blacklion Market.
+
+
+# Getting the runnable JAR
+You can download a standalone compiled JAR from
+http://cs.mcgill.ca/~ataher5/downloads/gw2bltrends.jar
+
 # Usage
 ```
-java -jar GW2bltrends.jar "gw2_data.sq3" 10
+java -jar gw2bltrends.jar "gw2_data.sq3" 10
 ```
 You should get an output such as
 ```
